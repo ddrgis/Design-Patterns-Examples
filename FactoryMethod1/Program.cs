@@ -1,15 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryMethod1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            var selected = false;
+            PizzaCreator pizzaCreator = null;
+
+            Console.WriteLine("Введите название пиццы");
+            while (selected == false)
+            {
+                string userInput = Console.ReadLine();
+                switch (userInput)
+                {
+                    case "Pepperoni":
+                        pizzaCreator = new PepperoniCreator();
+                        selected = true;
+                        break;
+
+                    case "Four Seasons":
+                        pizzaCreator = new FourSeasonsCreator();
+                        selected = true;
+                        break;
+
+                    default:
+                        Console.WriteLine("Неверное название пиццы");
+                        break;
+                }
+            }
+
+            Pizza pizza = pizzaCreator.CreatePizza();
+            Console.WriteLine(pizza);
+
+            Console.Read();
         }
     }
 }

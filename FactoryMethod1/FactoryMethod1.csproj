@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FourSeasons.cs" />
+    <Compile Include="FourSeasonsCreator.cs" />
+    <Compile Include="Pepperoni.cs" />
+    <Compile Include="PepperoniCreator.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
