@@ -4,7 +4,7 @@ namespace FactoryMethod1
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var selected = false;
             PizzaCreator pizzaCreator = null;
@@ -31,7 +31,7 @@ namespace FactoryMethod1
                 }
             }
 
-            Pizza pizza = pizzaCreator.CreatePizza();
+            var pizza = pizzaCreator.CreatePizza();
             Console.WriteLine(pizza);
 
             Console.Read();
