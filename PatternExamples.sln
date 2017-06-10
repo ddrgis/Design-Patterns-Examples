@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod1", "FactoryMethod1\FactoryMethod1.csproj", "{67BB189B-8E35-484F-AFD3-985630BC8ACF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample1", "FactoryMethod1\FactoryMethodExample1.csproj", "{67BB189B-8E35-484F-AFD3-985630BC8ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{E9DB73EC-864C-4843-BF33-1EC0E46C35F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singletons", "Singleton\Singletons.csproj", "{E9DB73EC-864C-4843-BF33-1EC0E46C35F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodAbstract", "FactoryMethodAbstract\FactoryMethodAbstract.csproj", "{05152CEE-AEF2-4ED2-AB27-D871D8EE1238}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethodAbstract\FactoryMethod.csproj", "{05152CEE-AEF2-4ED2-AB27-D871D8EE1238}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6BBB6FB0-7EBF-4AC0-B2F7-09BF94EC8B95}"
 EndProject
